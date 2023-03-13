@@ -1,0 +1,33 @@
+.result
+{
+    background-image: url(/public/images/55.jpg);
+    background-size: 100% 150% ; 
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    width: 100vw;
+}
+
+.result_box
+{
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+    background-image: url(https://img.freepik.com/free-photo/blue-sky-with-clouds_469558-30798.jpg?size=626&ext=jpg&ga=GA1.2.567226552.1651487574);
+    /*background-color: greenyellow;*/
+    border-radius: 20px;
+    box-shadow: 0 5px 6px rgba(0,0,0,0.50),0 2px 3px rgba(0,0,0,0.99);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 10px;
+}
+.result_box > button
+{
+    background-color: green;
+    border: none;
+    width: 50%;
+    height: 3vh;
+    font-size: 15px;
+    border-radius: 10px;
+    color: white;
+}
